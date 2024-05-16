@@ -1,0 +1,39 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+}
+
+button{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.container img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    max-height: 100%; /* Ensure images don't exceed container height */
+}
